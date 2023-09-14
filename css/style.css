@@ -48,6 +48,11 @@ table {
 
 /* That a style for index.html */
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .title {
     text-align: center;
     font-size: 40px;
@@ -129,6 +134,47 @@ caption{
     background: yellow;
 }
 
-.col_2{
+.col_2 {
     background: aqua;
+}
+
+
+/* That a style for second_table.html */
+
+table, td, th {
+    border: 2px solid blueviolet;
+}
+th, td{
+    width: 70px;
+    height: 50px;
+}
+
+.tr_1 {
+    background: darkolivegreen;
+}
+
+.tr_2{
+    background: green;
+}
+
+.tr_3{
+    background: red;
+}
+
+.tr_4{
+    background: aqua;
+}
+
+.tr_5{
+    background: palevioletred;
+}
+
+
+
+.link_look{
+    text-decoration: none;
+    color: black;
+    font-weight: 800; 
+    text-transform: uppercase;
+    background: orange;
 }
