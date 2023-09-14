@@ -3,23 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
-    <style>
-        table, td, th {
-            border: 2px solid blueviolet;
-        }
-        th{
-            background: pink;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
     <div>
-        <a href="index.html" style="text-decoration: none; color: black; font-weight: 800; text-transform: uppercase;">Go to home</a>
+        <a href="index.html" class="some_link">Go to home</a>
     <table>
-        <caption style="font-weight: 800; background: red;">Ціна ноутбуків по черзі</caption>
+        <caption>Ціна ноутбуків по черзі</caption>
         <colgroup>
-        <col style="background: yellow;">
-        <col span="2" style="background: aqua;">
+        <col class="col_1">
+        <col span="2" class="col_2">
         </colgroup>
         <thead>
             <tr>
@@ -52,7 +47,7 @@
 
         </tbody>
     </table>
-    <a href="second_table.html">Go second table</a>
+    <a href="second_table.html" class="some_link">Go second table</a>
     </div>
 </body>
 </html>
