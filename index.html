@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -7,64 +8,70 @@
 </head>
 
 <body>
-    <div>
-        <h1>Ноутбуки</h1>
-        <div style="color: rgb(6, 6, 128); background: blueviolet; font-size: 18px; line-height:22px; font-weight: 400; width: 1200px; height: 500px; margin: 0 auto; border: 5px solid rgb(4, 4, 60); padding: 20px;">
-            <h2>Asus</h2>
-            <p>ASUS Vivobook 15 X1500EA-BQ3244 (90NB0TY5-M036X0) Indie Black</p>
-            <img src="images/asus.webp" alt="Asus" width="380" height="230">
-            <ul style="color: rgb(6, 6, 128); ">
-                <li>15.6" IPS Full HD</li>
-                <li>Intel Core i3-1115G4</li>
-                <li>RAM 12 ГБ</li>
-                <li>SSD 512 ГБ</li>
-                <li>UHD Graphics 11th Gen</li>
-                <li>Ціна 12000 грн</li>
-            </ul>
-        </div>
-
-        <div style="color: rgb(6, 6, 128); background: blueviolet; font-size: 18px; line-height:22px; font-weight: 400; width: 1200px; height: 500px; margin: 0 auto; border: 5px solid rgb(4, 4, 60); padding: 20px">
-            <h2>Accer</h2>
-            <p>Acer Aspire 7 A715-42G-R0VS (NH.QBFEU.00A) Charcoal Black</p>
-            <img src="images/accer.webp" alt="Accer" width="380" height="230">
-            <ul>
-                <li>15.6" IPS (1920x1080) Full HD</li>
-                <li>AMD Ryzen 5 5500U</li>
-                <li>RAM 8 ГБ</li>
-                <li>SSD 512 ГБ</li>
-                <li>nVidia GeForce GTX 1650</li>
-                <li>Ціна 14000 грн</li>
-            </ul>
-        </div>
-        
-        <div style="color: rgb(6, 6, 128); background: blueviolet; font-size: 18px; line-height:22px; font-weight: 400; width: 1200px; height: 500px; margin: 0 auto; border: 5px solid rgb(4, 4, 60); padding: 20px">
-            <h2>Dell</h2>
-            <p>Dell Inspiron 3520 (I3538S2NIL-20B) Carbon Black</p>
-            <img src="images/dell.webp" alt="Dell" width="380" height="230">
-            <ul>
-                <li>15.6” WVA Full HD 120 Гц</li>
-                <li>Intel Core i3-1115G4</li>
-                <li>RAM 8 ГБ</li>
-                <li>SSD 256 ГБ</li>
-                <li>UHD Graphics 11th Gen</li>
-                <li>Ціна 14000 грн</li>
-            </ul>
-        </div>
-        
-        <div style="color: rgb(6, 6, 128); background: blueviolet; font-size: 18px; line-height:22px; font-weight: 400; width: 1200px; height: 500px; margin: 0 auto; border: 5px solid rgb(4, 4, 60); padding: 20px">
-            <h2>Lenovo</h2>
-            <p>Lenovo IdeaPad Gaming 3 15IHU6 (82K10190RA) Shadow Black</p>
-            <img src="images/lenovo.webp" alt="Lenovo" width="380" height="230">
-            <ul>
-                <li>15.6" IPS Full HD 120 Гц</li>
-                <li>Intel Core i5-11320H</li>
-                <li>RAM 16 ГБ</li>
-                <li>SSD 512 ГБ</li>
-                <li>nVidia GeForce RTX 3050</li>
-                <li>Ціна 15000 грн</li>
-            </ul>
-        </div>
+    <div class="container">
+        <header>
+            <h1 class="title">Ноутбуки</h1>
+        </header>
+        <main class="top">
+            <div class="main">
+                <p>Asus</p>
+                <p class="botton_img">Asus Vivobook 15 X1500EA-BQ3244 (90NB0TY5-M036X0) Indie 
+                Black</p>
+                <img src="images/asus.webp" alt="Asus" width="380" height="230">
+                <ul>
+                    <li>15.6" IPS Full HD</li>
+                    <li>Intel Core i3-1115G4</li>
+                    <li>RAM 12 ГБ</li>
+                    <li>SSD 512 ГБ</li>
+                    <li>UHD Graphics 11th Gen</li>
+                    <li>Ціна 12000 грн</li>
+                </ul>
+            </div>
+            <div class="main">
+                <p>Acer</p>
+                <p class="botton_img">Acer Aspire 7 A715-42G-R0VS (NH.QBFEU.00A) Charcoal Black<p>
+                <img src="images/accer.webp" alt="Accer" width="380" height="230">
+                <ul>
+                    <li>15.6" IPS (1920x1080) Full HD</li>
+                    <li>AMD Ryzen 5 5500U</li>
+                    <li>RAM 8 ГБ</li>
+                    <li>SSD 512 ГБ</li>
+                    <li>nVidia GeForce GTX 1650</li>
+                    <li>Ціна 14000 грн</li>
+                </ul>
+            </div>
+            <div class="main">
+                <p>Dell</p>
+                <p class="botton_img">Dell Inspiron 3520 (I3538S2NIL-20B) Carbon Black</p>
+                <img src="images/dell.webp" alt="Dell" width="380" height="230">
+                <ul>
+                    <li>15.6” WVA Full HD 120 Гц</li>
+                    <li>Intel Core i3-1115G4</li>
+                    <li>RAM 8 ГБ</li>
+                    <li>SSD 256 ГБ</li>
+                    <li>UHD Graphics 11th Gen</li>
+                    <li>Ціна 14000 грн</li>
+                </ul>
+            </div>
+            <div class="main">
+                <p>Lenovo</p>
+                <p class="botton_img">Lenovo IdeaPad Gaming 3 15IHU6 (82K10190RA) Shadow Black</p>
+                <img src="images/lenovo.webp" alt="Lenovo" width="380" height="230">
+                <ul>
+                    <li>15.6" IPS Full HD 120 Гц</li>
+                    <li>Intel Core i5-11320H</li>
+                    <li>RAM 16 ГБ</li>
+                    <li>SSD 512 ГБ</li>
+                    <li>nVidia GeForce RTX 3050</li>
+                    <li>Ціна 15000 грн</li>
+                </ul>
+            </div>
+        </main>
     </div>
-    <a href="table.html" style="text-decoration: none; color: black; font-weight: 800; text-transform: uppercase;"> Go table</a>
+        <footer>
+            <a href="table.html" style="text-decoration: none; color: black; font-weight: 800; 
+            text-transform: uppercase;">Go table</a>
+        </footer>
 </body>
+
 </html>
